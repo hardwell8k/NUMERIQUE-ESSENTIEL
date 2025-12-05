@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GIMP – NIRD Essentials</title>
+<style>
+  body { font-family: sans-serif; max-width: 650px; margin: auto; padding: 1rem; line-height: 1.6; }
+  nav a { margin-right: 1rem; color: #0055aa; text-decoration: none; }
+  nav a:focus, nav a:hover { text-decoration: underline; }
+  button { margin-top: 0.3rem; padding: 0.2rem 0.6rem; cursor: pointer; }
+  .img-placeholder { margin: 0.5rem 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>GIMP</h1>
+  <nav>
+    <a href="index.html">Home</a><a href="about.html">About</a>
+  </nav>
+</header>
+<main>
+  <p>GIMP (GNU Image Manipulation Program) is an advanced open-source image editor used for photo retouching, composition, and authoring.</p>
+  <div class="img-placeholder">
+    <button onclick="document.getElementById('img').src='./imgs/The_GIMP_icon_-_gnome.png'">Load image</button><br />
+    <img id="img" alt="GIMP Screenshot" style="max-width:100%;" />
+  </div>
+  <p>Visit the official website: <a href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer">gimp.org</a></p>
+  <h2>Key Features</h2>
+  <ul>
+    <li>Powerful image retouching and editing tools</li>
+    <li>Supports layers and masks</li>
+    <li>Extensible with plugins</li>
+    <li>Cross-platform (Windows, Linux, Mac)</li>
+  </ul>
+</main>
+<footer>
+  <small>© 2025 NIRD Essentials · Designed for eco-friendly, ethical, and accessible web</small>
+</footer>
+</body>
+</html>
